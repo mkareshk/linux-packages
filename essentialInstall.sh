@@ -10,6 +10,12 @@ apt-get upgrade
 # Essential Tools
 apt-get install -y git ssh build-essential make cmake csh
 
+# Libs
+apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
+
+#Fortran
+apt-get install -y gfortran
+
 # Editors
 apt-get install -y vim nano sublime-text-installer
 
