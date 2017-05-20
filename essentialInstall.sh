@@ -13,7 +13,7 @@ apt-get install -y git ssh build-essential make cmake csh
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
 
-#Fortran
+# Fortran
 apt-get install -y gfortran
 
 # Editors
@@ -44,6 +44,10 @@ pip3 install cython request bs4 scrapy tweepy twython flask django py2app nltk s
 apt-get install -y python-dev python-numpy python-scipy python-matplotlib python-sympy python-pandas python-pip ipython-notebook
 pip install --upgrade pip
 pip2 install cython request bs4 scrapy tweepy twython flask django py2app nltk spacy tqdm scikit-learn autobahn nose sqlalchemy keras
+
+# OpenCV
+apt-get install -y ffmpeg libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
+apt-get install -y libopencv-dev python-opencv python3-opencv
 
 # LAMP
 apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin 
