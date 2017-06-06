@@ -8,7 +8,7 @@ apt-get update
 apt-get upgrade 
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh 
+apt-get install -y git ssh build-essential make cmake csh curl
 
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev 
