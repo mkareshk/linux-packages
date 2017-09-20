@@ -60,9 +60,6 @@ apt-get install -y libopencv-dev python-opencv
 
 # LAMP
 apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin composer php-curl
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
-php composer-setup.php 
-php -r "unlink('composer-setup.php');" 
 
 # Cleaning
 apt-get autoremove 
