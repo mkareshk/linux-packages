@@ -20,7 +20,7 @@ apt-get install -y gfortran
 apt-get install -y vim nano sublime-text-installer 
 
 # LaTeX
-apt-get install -y texlive-full texmaker 
+apt-get install -y texlive-full texmaker jabref
 
 # C++
 apt-get install -y clang gcc g++ libboost-all-dev 
