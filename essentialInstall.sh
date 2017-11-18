@@ -2,13 +2,14 @@
 
 # Add Repos
 add-apt-repository ppa:webupd8team/sublime-text-3 
+sudo add-apt-repository ppa:cwchien/gradle
 
 # Update and Ungrade
 apt-get update 
 apt-get upgrade 
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl
+apt-get install -y git ssh build-essential make cmake csh curl antlr4
 
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev 
@@ -29,7 +30,7 @@ apt-get install -y clang gcc g++ libboost-all-dev
 apt-get install -y ruby 
 
 #Java
-apt-get install -y default-jdk* 
+apt-get install -y default-jdk* gradle maven openjdk-8-jdk openjfx 
 
 # Node.js
 apt-get install -y nodejs 
