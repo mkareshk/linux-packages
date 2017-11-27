@@ -45,6 +45,7 @@ pip3 install tweepy twython
 pip3 install nltk spacy 
 pip3 install scikit-learn keras 
 pip3 install graphviz
+pip3 install joblib
                      
 # Python 2
 apt-get install -y python-dev python-numpy python-scipy python-matplotlib python-sympy python-pandas python-pip ipython-notebook 
@@ -56,6 +57,8 @@ pip install tweepy twython
 pip install nltk spacy 
 pip install scikit-learn keras 
 pip install graphviz
+pip install joblib
+
 
 # OpenCV
 apt-get install -y ffmpeg libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
