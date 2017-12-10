@@ -9,7 +9,7 @@ apt-get update
 apt-get upgrade 
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl antlr4 graphviz libgraphviz-dev screen nano
+apt-get install -y git ssh build-essential make cmake csh curl antlr4 graphviz libgraphviz-dev screen
 
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev 
