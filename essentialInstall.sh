@@ -37,8 +37,8 @@ apt-get install -y default-jdk* gradle maven openjdk-8-jdk openjfx
 apt-get install -y nodejs 
 
 # Python 3
-apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook 
-pip3 install --upgrade pip 
+apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py
+3pip3 install --upgrade pip 
 pip3 install cython  
 pip3 install flask django py2app 
 pip3 install request bs4  
@@ -49,7 +49,7 @@ pip3 install graphviz
 pip3 install joblib
                      
 # Python 2
-apt-get install -y python-dev python-numpy python-scipy python-matplotlib python-sympy python-pandas python-pip ipython-notebook 
+apt-get install -y python-dev python-numpy python-scipy python-matplotlib python-sympy python-pandas python-pip ipython-notebook python-h5py
 pip install --upgrade pip 
 pip install cython  
 pip install flask django py2app 
