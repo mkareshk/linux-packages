@@ -3,6 +3,7 @@
 # Add Repos
 add-apt-repository ppa:webupd8team/sublime-text-3 
 sudo add-apt-repository ppa:cwchien/gradle
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 
 # Update and Ungrade
 apt-get update 
@@ -67,6 +68,9 @@ apt-get install -y libopencv-dev python-opencv
 # LAMP
 apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin composer php-curl
 
+
+# Screen Recorder
+apt-get install -y simplescreenrecorder
 # Cleaning
 apt-get autoremove 
 apt-get autoclean
