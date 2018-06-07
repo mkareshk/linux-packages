@@ -47,6 +47,7 @@ pip install nltk spacy
 pip install scikit-learn keras 
 pip install graphviz
 pip install joblib
+pip install jupyter
 
 # Python 3
 apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py
@@ -59,6 +60,7 @@ pip3 install nltk spacy
 pip3 install scikit-learn keras 
 pip3 install graphviz
 pip3 install joblib
+pip3 install jupyter
                      
 # OpenCV
 apt-get install -y ffmpeg libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
@@ -66,7 +68,6 @@ apt-get install -y libopencv-dev python-opencv
 
 # LAMP
 apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin composer php-curl
-
 
 # Screen Recorder
 apt-get install -y simplescreenrecorder
