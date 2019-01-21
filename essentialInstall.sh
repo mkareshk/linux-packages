@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Add Repos
-add-apt-repository ppa:webupd8team/sublime-text-3 
-sudo add-apt-repository ppa:cwchien/gradle
-sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
-
 # Update and Ungrade
 apt-get update 
 apt-get upgrade 
@@ -19,7 +14,7 @@ apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
 apt-get install -y gfortran 
 
 # Editors
-apt-get install -y vim nano sublime-text-installer 
+apt-get install -y vim nano
 
 # LaTeX
 apt-get install -y texlive-full texmaker jabref
@@ -31,23 +26,10 @@ apt-get install -y clang gcc g++ libboost-all-dev
 apt-get install -y ruby 
 
 #Java
-apt-get install -y default-jdk* gradle maven openjdk-8-jdk openjfx 
+apt-get install -y default-jdk* gradle maven openjfx 
 
 # Node.js
 apt-get install -y nodejs 
-
-# Python 2
-apt-get install -y python-dev python-numpy python-scipy python-matplotlib python-sympy python-pandas python-pip ipython-notebook python-h5py
-pip install --upgrade pip 
-pip install cython  
-pip install flask django py2app 
-pip install request bs4  
-pip install tweepy twython 
-pip install nltk spacy 
-pip install scikit-learn keras 
-pip install graphviz
-pip install joblib
-pip install jupyter
 
 # Python 3
 apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py
@@ -63,14 +45,11 @@ pip3 install joblib
 pip3 install jupyter
                      
 # OpenCV
-apt-get install -y ffmpeg libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
 apt-get install -y libopencv-dev python-opencv  
 
 # LAMP
 apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin composer php-curl
 
-# Screen Recorder
-apt-get install -y simplescreenrecorder
 # Cleaning
 apt-get autoremove 
 apt-get autoclean
