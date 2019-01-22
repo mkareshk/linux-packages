@@ -5,7 +5,7 @@ Run `sudo ./essentialInstall.sh` to install some essential package for **LAMP**,
 
 
 ## Installing the packages
-To
+To install the essential packages and tools for daily datascice workflow, you just nee to run the folliwng command your terminal:
 ```bash
 sudo curl https://raw.githubusercontent.com/owhadi/ubuntu-packages/master/essentialInstall.sh | sudo sh
 ```
