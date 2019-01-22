@@ -1,11 +1,12 @@
 # Ubuntu-Essential-Packages
-Install the essential packages in Ubuntu by running just one script file.
-
-Run `sudo ./essentialInstall.sh` to install some essential package for **LAMP**, **C++**, **Java**, **Ruby**, **Python 2 and 3**, **Node.js**, and **LaTeX**. 
-
+This repository contains an script to install the essential packages and tools for daily datascice workflow. By running this script, you will install basic linux tools, C++, ruby, NodeJS, Java, and Python3 compilers/libratries, latex tools, OpenCV, and LAMP.
 
 ## Installing the packages
-To install the essential packages and tools for daily datascice workflow, you just nee to run the folliwng command your terminal:
+To install , you just nee to run the folliwng command your terminal:
 ```bash
 sudo curl https://raw.githubusercontent.com/owhadi/ubuntu-packages/master/essentialInstall.sh | sudo sh
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
