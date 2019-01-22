@@ -32,14 +32,14 @@ apt-get install -y default-jdk* gradle maven openjfx
 apt-get install -y nodejs 
 
 # Python 3
-apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py
-3pip3 install --upgrade pip 
+apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py python3-setuptools
+pip3 install --upgrade pip 
 pip3 install cython  
 pip3 install flask django py2app 
 pip3 install request bs4  
 pip3 install tweepy twython 
 pip3 install nltk spacy 
-pip3 install scikit-learn keras 
+pip3 install scikit-learn keras tensorflow torch
 pip3 install graphviz
 pip3 install joblib
 pip3 install jupyter
