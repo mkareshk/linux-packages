@@ -2,7 +2,7 @@
 
 # Update and Ungrade
 apt-get update 
-apt-get upgrade 
+apt-get upgrade -y
 
 # Essential Tools
 apt-get install -y git ssh build-essential make cmake csh curl antlr4 graphviz libgraphviz-dev screen
@@ -14,7 +14,7 @@ apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
 apt-get install -y gfortran 
 
 # Editors
-apt-get install -y vim nano
+apt-get install -y vim nano sublime-text
 
 # LaTeX
 apt-get install -y texlive-full texmaker jabref
