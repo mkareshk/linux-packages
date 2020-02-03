@@ -5,7 +5,7 @@ apt-get update
 apt-get upgrade -y
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl antlr4 graphviz libgraphviz-dev screen
+apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen
 
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev 
@@ -14,7 +14,7 @@ apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
 apt-get install -y gfortran 
 
 # Editors
-apt-get install -y vim nano sublime-text
+apt-get install -y vim nano 
 
 # LaTeX
 apt-get install -y texlive-full texmaker jabref
@@ -26,13 +26,13 @@ apt-get install -y clang gcc g++ libboost-all-dev
 apt-get install -y ruby 
 
 #Java
-apt-get install -y default-jdk* gradle maven openjfx 
+apt-get install -y default-jdk gradle maven openjfx 
 
 # Node.js
 apt-get install -y nodejs 
 
 # Python 3
-apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip ipython3-notebook python-h5py python3-setuptools
+apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip python-h5py python3-setuptools
 pip3 install cython  
 pip3 install flask django py2app 
 pip3 install request bs4  
@@ -47,9 +47,8 @@ pip3 install jupyter
 apt-get install -y libopencv-dev python-opencv  
 
 # LAMP
-apt-get install -y apache2 mysql-server mysql-client mysql-workbench php libapache2-mod-php phpmyadmin composer php-curl
+apt-get install -y mysql-server mysql-client mysql-workbench
 
 # Cleaning
-apt-get autoremove 
 apt-get autoclean
 
