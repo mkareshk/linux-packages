@@ -5,7 +5,7 @@ apt-get update
 apt-get upgrade -y
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen
+apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim nano
 
 # Libs
 apt-get install -y libblas-dev liblapack-dev libatlas-base-dev 
@@ -13,11 +13,8 @@ apt-get install -y libblas-dev liblapack-dev libatlas-base-dev
 # Fortran
 apt-get install -y gfortran 
 
-# Editors
-apt-get install -y vim nano 
-
 # LaTeX
-apt-get install -y texlive-full texmaker jabref
+apt-get install -y texlive-full texmaker
 
 # C++
 apt-get install -y clang gcc g++ libboost-all-dev 
@@ -32,23 +29,9 @@ apt-get install -y default-jdk gradle maven openjfx
 apt-get install -y nodejs 
 
 # Python 3
-apt-get install -y python3-dev python3-numpy python3-scipy python3-matplotlib python3-sympy python3-pandas python3-pip python-h5py python3-setuptools
-pip3 install cython  
-pip3 install flask django py2app 
-pip3 install request bs4  
-pip3 install tweepy twython 
-pip3 install nltk spacy 
-pip3 install scikit-learn keras tensorflow torch
-pip3 install graphviz
-pip3 install joblib
-pip3 install jupyter
-                     
-# OpenCV
-apt-get install -y libopencv-dev python-opencv  
-
-# LAMP
-apt-get install -y mysql-server mysql-client mysql-workbench
+apt-get install -y python3-dev python3-pip python3-setuptools
 
 # Cleaning
+apt-get autoremove
 apt-get autoclean
 
