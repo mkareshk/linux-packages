@@ -1,10 +1,10 @@
 # Ubuntu-Essential-Packages
-This repository contains an script to install the essential packages and tools for daily datascice workflow. By running this script, you will install basic linux tools, C++, ruby, NodeJS, Java, and Python3 compilers/libratries, latex tools, OpenCV, and LAMP.
+This repository contains scripts to install the essential packages and tools for daily datascice workflow on Linux machines. By running the script that is written for your distro, you will install basic linux tools, C++, ruby, NodeJS, Java, and Python3 compilers/libratries, and latex tools.
 
-## Installing the packages
-To install , you just nee to run the folliwng command your terminal:
+### Ubuntu/Debian/Mint
+
 ```bash
-sudo curl https://raw.githubusercontent.com/owhadi/ubuntu-packages/master/essentialInstall.sh | sudo sh
+sudo curl https://raw.githubusercontent.com/mkareshk/ubuntu-packages/master/ubuntu.sh | sudo sh
 ```
 
 ## License
