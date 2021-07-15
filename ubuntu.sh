@@ -4,7 +4,7 @@
 apt-get update && apt-get upgrade -y
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim nano
+apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim neovim nano
 
 # Fortran
 apt-get install -y gfortran 
