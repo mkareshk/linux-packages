@@ -1,36 +1,42 @@
 #!/bin/bash
 
 # Update and Ungrade
-apt-get update && apt-get upgrade -y
+apt update && apt upgrade -y
 
 # Essential Tools
-apt-get install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim neovim nano
+apt install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim neovim nano
 
 # Fortran
-apt-get install -y gfortran 
+apt install -y gfortran 
 
 # C++
-apt-get install -y clang gcc g++ 
+apt install -y clang gcc g++ 
 
 # Libs
-apt-get install -y libblas-dev liblapack-dev libatlas-base-dev libboost-all-dev 
+apt install -y libblas-dev liblapack-dev libatlas-base-dev libboost-all-dev 
 
 # LaTeX
-apt-get install -y texlive-full texmaker
+apt install -y texlive-full texmaker
 
 # Ruby
-apt-get install -y ruby 
+apt install -y ruby 
 
 #Java
-apt-get install -y default-jdk gradle maven openjfx 
+apt install -y default-jdk gradle maven openjfx 
 
 # Node.js
-apt-get install -y nodejs 
+apt install -y nodejs 
 
 # Python 3
-apt-get install -y python3-dev python3-pip python3-setuptools python3-wheel
+apt install -y python3-dev python3-pip python3-setuptools python3-wheel 
+
+# OpenCV
+apt install -y libopencv-dev python3-opencv
+
+# Codecs and Media
+apt install -y ubuntu-restricted-extras vlc vlc-data ffmpeg
 
 # Cleaning
-apt-get autoremove
-apt-get autoclean
+apt autoremove
+apt autoclean
 
