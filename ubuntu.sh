@@ -28,7 +28,7 @@ apt install -y default-jdk gradle maven openjfx
 apt install -y nodejs 
 
 # Python 3
-apt install -y python3-dev python3-pip python3-setuptools python3-wheel 
+apt install -y python3-dev python3-pip python3-setuptools python3-wheel python3-venv
 
 # OpenCV
 apt install -y libopencv-dev python3-opencv
