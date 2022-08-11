@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Update and Ungrade
 apt update && apt upgrade -y
@@ -36,7 +36,10 @@ apt install -y libopencv-dev python3-opencv
 # Codecs and Media
 apt install -y ubuntu-restricted-extras vlc vlc-data ffmpeg
 
+# docker
+apt install docker.io docker-compose
+
 # Cleaning
-apt autoremove
-apt autoclean
+apt autoremove -y
+apt autoclean -y
 
