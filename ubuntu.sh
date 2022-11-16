@@ -4,7 +4,7 @@
 apt update && apt upgrade -y
 
 # Essential Tools
-apt install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim neovim nano
+apt install -y git ssh build-essential make cmake csh curl graphviz libgraphviz-dev screen tmux vim neovim nano ncal neofetch net-tools
 
 # Fortran
 apt install -y gfortran 
