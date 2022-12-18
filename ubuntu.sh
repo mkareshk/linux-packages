@@ -19,7 +19,7 @@ apt install -y libblas-dev liblapack-dev libatlas-base-dev libboost-all-dev
 apt install -y texlive-full
 
 # Ruby
-apt install -y ruby 
+apt install -y ruby rbenv bundler
 
 #Java
 apt install -y default-jdk gradle maven openjfx 
